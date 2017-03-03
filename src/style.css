@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 body{
+  overflow: hidden;
   font-family: 'Roboto Slab', serif;
   background-color: #bca1fd;
   color: #785BBD;
@@ -11,17 +12,6 @@ body{
 }
 .white {
   color:white;
-}
-
-.text-sm {
-  font-size: 14px;
-}
-
-.text-md {
-  font-size: 20px;
-}
-.text-lg {
-  font-size: 28px;
 }
 
 .mt-2{
