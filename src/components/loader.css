@@ -1,4 +1,7 @@
-/* START CSS for Loader Component */
+.hidden{
+  visibility: hidden;
+}
+
 .sk-fading-circle .sk-circle:before {
   content: '';
   display: block;
@@ -119,4 +122,3 @@
   0%, 39%, 100% { opacity: 0; }
   40% { opacity: 1; }
 }
-/* END CSS for Loader Component */

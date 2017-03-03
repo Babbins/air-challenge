@@ -1,0 +1,12 @@
+.scrollTop {
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: underline;
+  display: block;
+  cursor: pointer;
+  background-position: 6px 5px;
+}
