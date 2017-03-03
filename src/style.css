@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 body{
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Roboto Slab', serif;
   background-color: #bca1fd;
   color: #785BBD;

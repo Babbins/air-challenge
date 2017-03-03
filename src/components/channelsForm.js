@@ -53,7 +53,7 @@ export default class channelsForm extends Component {
               {inputs.map((input, idx) => (
                 <Row key={idx}>
                   <Col xs={8} xsOffset={1}>
-                    <FormControl tabIndex ={idx + 1} onChange={(evt) => this.handleInputChange(idx, evt)} type="text" value={input} placeholder="Channel name OR id" />
+                    <FormControl tabIndex={idx + 1} onChange={(evt) => this.handleInputChange(idx, evt)} type="text" value={input} placeholder="Channel name OR id" />
                   </Col>
                   <Col xs={1}>
                     <Button onClick={() => this.removeInput(idx)}><Glyphicon glyph="remove" /> </Button>

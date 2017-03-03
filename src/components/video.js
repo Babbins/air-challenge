@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Well, Row, Col, FormGroup, FormControl, Button, Glyphicon, Image} from 'react-bootstrap';
+import {Well, Row, Col, Image} from 'react-bootstrap';
 import './video.css';
 import {formatDate} from '../utils.js';
 
